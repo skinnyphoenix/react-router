@@ -15,7 +15,6 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
   },
-
   {
     path: "/home",
     element: <Home />,
@@ -23,17 +22,17 @@ const router = createBrowserRouter([
 
   {
     path: "/about",
-    content: <About />,
+    element: <About />,
   },
 
   {
     path: "/contacts",
-    content: <Contacts />,
+    element: <Contacts />,
   },
 
   {
     path: "/locations",
-    content: <Locations />,
+    element: <Locations />,
   },
 ]);
 
