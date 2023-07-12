@@ -21,6 +21,9 @@ function App() {
         <li>
           <Link to="/about">About</Link>
         </li>
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
         <Outlet />
       </ul>
     </>
